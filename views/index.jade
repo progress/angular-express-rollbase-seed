@@ -12,10 +12,11 @@ block body
     div(ng-view)
 
     div
-      | Angular seed app: v
+      | Angular seed app: 
       span(app-version)
-
-  script(src='js/lib/angular/angular.js')
+  // These are angular scripts. I have just added one module, ngRoute.
+  script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js')
+  script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular-route.min.js')
   script(src='js/app.js')
   script(src='js/services.js')
   script(src='js/controllers.js')
