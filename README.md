@@ -35,12 +35,6 @@ Runs like a typical express app:
         directives.js   --> custom angular directives
         filters.js      --> custom angular filters
         services.js     --> custom angular services
-        lib/            --> angular and 3rd party JavaScript libraries
-          angular/
-            angular.js            --> the latest angular js
-            angular.min.js        --> the latest minified angular js
-            angular-*.js          --> angular add-on modules
-            version.txt           --> version number
     routes/
       api.js            --> route for serving JSON. Rollbase is called here. 
       index.js          --> route for serving HTML pages and partials
