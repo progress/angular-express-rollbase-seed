@@ -56,3 +56,6 @@ For more on AngularJS please check out http://angularjs.org/
 For more on Express please check out http://expressjs.com/.
 For more on Jade please check out http://jade-lang.com/.
 
+## License
+
+MIT

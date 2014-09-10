@@ -1,5 +1,5 @@
 /*
- * Serve JSON to our AngularJS client.
+ * This calls Rollbase to get the necessary information before serving JSON to the AngularJS client. 
  */
 
 //https is used for accessing the Rollbase API

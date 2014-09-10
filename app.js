@@ -1,4 +1,6 @@
-
+/*
+* This is the NodeJS server that will power your app.
+*/
 /**
  * Module dependencies. Many of these are optional depending on your needs.
  */
