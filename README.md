@@ -51,10 +51,10 @@ A simple [blog](https://github.com/progress/angular-rollbase-blog) based on this
 
 ## Contact
 
-For more on Rollbase please check out http://www.progress.com/products/rollbase.
-For more on AngularJS please check out http://angularjs.org/
-For more on Express please check out http://expressjs.com/.
-For more on Jade please check out http://jade-lang.com/.
+For more on Rollbase please check out http://www.progress.com/products/rollbase/ <br />
+For more on AngularJS please check out http://angularjs.org/ <br />
+For more on Express please check out http://expressjs.com/ <br />
+For more on Jade please check out http://jade-lang.com/ <br />
 
 ## License
 
