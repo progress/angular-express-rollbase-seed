@@ -9,6 +9,7 @@ var express = require('express'),
   morgan = require('morgan'),
   routes = require('./routes'),
   api = require('./routes/api'),
+  bodyParser = require('body-parser'),
   http = require('http'),
   path = require('path');
 
