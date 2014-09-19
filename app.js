@@ -6,7 +6,6 @@
  */
 
 var express = require('express'),
-  methodOverride = require('method-override'),
   morgan = require('morgan'),
   routes = require('./routes'),
   api = require('./routes/api'),
@@ -25,7 +24,6 @@ app.set('port', process.env.PORT || 3000);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 app.use(morgan('dev'));
-app.use(methodOverride());
 app.use(express.static(path.join(__dirname, 'public')));
 
 var env = process.env.NODE_ENV || 'development';
@@ -44,6 +42,8 @@ if (env === 'production') {
 /**
  * Routes
  */
+// This would allow post requests to be processed easily as they would be in req.body. 
+var jsonParser = bodyParser.json()
 
 // serve index and view partials
 app.get('/', routes.index);

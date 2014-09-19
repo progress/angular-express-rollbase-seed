@@ -7,7 +7,6 @@
     "error-handler": "^0.1.4",
     "express": "~4.1.1",
     "jade": "~0.31.2",
-    "method-override": "^1.0.0",
     "morgan": "^1.0.0"
   }
 }
